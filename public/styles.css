@@ -1,0 +1,36 @@
+*,*::before,*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container{
+  background-color:rgb(212, 212, 247);
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.tab-heading{
+  display: flex;
+  gap: 40px;
+  margin-bottom:10px;
+  /* border: 2px solid black; */
+}
+
+.tab-item{
+  background-color:#00ff00;
+  display: inline-flex;
+  cursor: pointer;
+  padding:0 5px
+}
+
+.active{
+  background-color: #ff0000;
+}
+
+.tab-content{
+  overflow: auto;
+}
